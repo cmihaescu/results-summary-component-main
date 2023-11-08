@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>
+      Results summary component - a newbi challenge with html and css
+    </title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="result-score-box">
+        <h4><span class="gray-text">Your Result</span></h4>
+        <div class="score">
+          <p>76</p>
+          <span class="gray-text">of 100</span>
+        </div>
+        <div>
+          <div class="score-text">Great</div>
+          <span class="gray-text">
+            You scored higher than 65% of the people who have taken these tests.
+          </span>
+        </div>
+      </div>
+      <div class="result-summary-box">
+        <h4>Summary</h4>
+        <div class="results-categories">
+          <div class="results-category reaction">
+            <div class="icon-div">
+              <img
+                src="./assets/images/icon-reaction.svg"
+                alt="icon-reaction"
+              />
+              <strong>Reaction</strong>
+            </div>
+            <div class="category-score"><strong>80</strong> / 100</div>
+          </div>
+          <div class="results-category memory">
+            <div class="icon-div">
+              <img
+                src="./assets/images/icon-memory.svg"
+                alt="icon-memory"
+              /><strong>Memory</strong>
+            </div>
+            <div class="category-score"><strong>92</strong> / 100</div>
+          </div>
+          <div class="results-category verbal">
+            <div class="icon-div">
+              <img
+                src="./assets/images/icon-verbal.svg"
+                alt="icon-verbal"
+              /><strong>Verbal</strong>
+            </div>
+            <div class="category-score"><strong>61</strong> / 100</div>
+          </div>
+          <div class="results-category visual">
+            <div class="icon-div">
+              <img
+                src="./assets/images/icon-visual.svg"
+                alt="icon-visual"
+              /><strong>Visual</strong>
+            </div>
+            <div class="category-score"><strong>72</strong> / 100</div>
+          </div>
+        </div>
+        <button class="continue-button"><strong>Continue</strong></button>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/cmihaescu">Cornel Mihaescu</a>.
+    </div>
+  </body>
+</html>
